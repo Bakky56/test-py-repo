@@ -1,0 +1,38 @@
+*{
+    background-color:#63a1d7;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    color: #ffebcd;
+    font-size: 20px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.image-conten{
+    width: 50%;
+    margin:80px 20px;
+}
+.form-content{
+    border-radius: 10px solid;
+width:50%;
+margin-left: 30px;
+padding: 20px;
+line-height: 70px;
+}
+.form-content input {
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.form-content textarea{
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 4px;
+}
